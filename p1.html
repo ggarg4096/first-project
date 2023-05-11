@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Note Log</title>
+    <link rel="stylesheet" type="text/css" href="cp.css">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <h1>Note Log</h1>
+    <form>
+      <label for="notedate">Date 
+        <i class="fa fa-calendar"></i> :</label>
+      <input type="date" id="Date" name="Date">
+      <br>
+      <br>
+      <label for="noteTime">Time 
+        <i class="fa fa-clock-o"></i> :</label>
+      <input type="time" id="noteTime" name="noteTime">
+      <br>
+      <br>
+      <label for="noteTitle">Title:</label>
+      <input type="text" id="noteTitle" name="noteTitle" placeholder="Enter note title">
+      <br>
+      <label for="noteContent">Content:</label>
+      <textarea id="noteContent" name="noteContent" placeholder="Enter note content">
+      </textarea>
+      <br>
+      <button type="submit">Add Note</button>
+    </form>
+  </body>
+</html>

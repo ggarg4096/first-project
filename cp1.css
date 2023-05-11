@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    background-image: url('ba.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+  }
+    div{
+        position: relative;
+        top: 25%;
+        left: 35%;
+        
+    }
+    a{
+        color: #000000;
+        text-decoration:none;
+    }
+    button{
+        background: none;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 48px;
+        font-size:20px;
+        padding:17px 24px 17px 24px;
+    }
+    h1 {
+      text-align: center;
+    }
+    button:hover
+    {
+        background-color: aquamarine;
+    }
+    
